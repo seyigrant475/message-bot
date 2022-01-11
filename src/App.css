@@ -1,0 +1,68 @@
+@font-face {
+  font-family: popinsRegular;
+  src: url("./Assets/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: popinsBold;
+  src: url("./Assets/Poppins-ExtraBold.ttf");
+}
+@font-face {
+  font-family: popinsMedium;
+  src: url("./Assets/Poppins-Medium.ttf");
+}
+.content-container{
+
+  z-index: 99;
+  margin-left: 8em;
+  padding-top: 100px;
+}
+.content {
+ 
+  margin-top:120px;
+}
+.flex{
+  display: flex;
+
+  margin-top: 1em;
+}
+
+.content h3{
+  font-family: popinsBold;
+}
+.content p{
+  font-family: popinsRegular;
+  margin-top: -10px;
+}
+.content button {
+  margin-top: -10px;
+  font-family: popinsRegular;
+  background-color: #FFD336;
+  border: 2px black ;
+  padding: 6px 18px 6px 18px ;
+  margin-top:-8px;
+
+}
+.content img{
+  max-width:190%;
+}
+
+@media only screen and (min-width: 800px) {
+  .content-container{
+      width: 230px;
+  }
+  .flex div img{
+  max-width: 70%;
+}
+}
+@media only screen and (max-width: 800px) {
+  .content-container{
+     margin-left:40px;
+  }
+  .flex div img{
+  max-width: 50%;
+}
+.flex div{
+width: 40px;
+}
+
+}
